@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(94, 104, 107);
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.header h1{
+    font-family: 'pacifio', cursive;
+    font-size: 50px;
+    margin-right: 90px;
+}
+.header h2{
+    margin: 0 0 0 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 40px; 
+}
+
+.header img{
+    height: 180px;
+    width: 150px;
+    margin-left:100px;
+}
+
+.about{
+    background-color: #ecedf1;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(58, 46, 46, 0.1);
+}
+.about img{
+    height: 160px;
+    width: 120px;
+    padding-right: 20px;
+    float: left;
+}
+.portofolio{
+    background-color: #ecedf1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portofolio p{
+    font-family: 'Gill Sans';
+    font-size: large; 
+}
+.contact{
+    background-color:#ecedf1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.contact p{
+    font-family: 'Gill Sans';
+    font-size: large; 
+}
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
